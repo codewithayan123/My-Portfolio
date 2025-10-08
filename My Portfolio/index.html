@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- Font link -->
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"><span class="yellow">My</span>Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+   <!-- Main================== -->
+<main>
+  <!-- First Section====================== -->
+  <section class="first">
+    <!-- Left Section Code==================== -->
+    <div class="leftsection">
+      <h1>
+        Hi, I Am <span class="yellow">Muhammad Ayan</span>
+      </h1>
+
+      <h2><span id="element"></span></h2>
+
+      <a href="cv.pdf" download class="cv-btn">Download CV</a>
+    </div>
+
+    <!-- Right Section Code===================== -->
+    <div class="rightsection">
+      <img src="bg.png" alt="Portfolio Image" />
+    </div>
+  </section>
+</main>
+
+
+
+
+
+
+
+    <!-- About Section -->
+    <section class="secondsection" id="about">
+        <h1>About<span class="yellow">Me</span></h1>
+        <hr>
+
+        <div class="about-content">
+            <!-- Left Side -->
+            <div class="secondleftsection">
+                <h2>Hi, I'm Muhammad Ayan</h2>
+                <p>
+                    "As a web development student at Aptech, I've gained experience working on frontend and backend
+                    projects, including Sherk Juice and an e-book platform using PHP. These projects were built for
+                    practice and learning purposes. Now, I'm looking for an internship opportunity to gain real-world
+                    experience, learn from industry professionals, and understand how web development works in a
+                    professional setting. I'm excited to contribute to a dynamic team and grow in the tech industry."
+                </p>
+            </div>
+
+            <!-- Right Side -->
+            <div class="secondrightsection">
+                <img src="card 1.jpeg" alt="My Photo">
+            </div>
+        </div>
+    </section>
+
+   <!-- Services Section -->
+<section class="servicessection" id="services">
+  <h1>My <span class="yellow">Services</span></h1>
+  <hr />
+
+  <div class="services-content">
+    <!-- Card 1 -->
+    <div class="service-card">
+      <img src="card 1.jpeg" alt="Frontend Projects" />
+      <h2>Frontend Projects</h2>
+      <p>
+        We build modern and responsive frontend projects using HTML, CSS,
+        JavaScript and frameworks that provide smooth user experience.
+      </p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="service-card">
+      <img src="card 2.jpeg" alt="Backend Projects" />
+      <h2>Backend Projects</h2>
+      <p>
+        We develop secure and scalable backend solutions with databases and
+        server-side technologies to power your applications.
+      </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="service-card">
+      <img src="Card 3.jpeg" alt="Figma Designing" />
+      <h2>Figma Designing</h2>
+      <p>
+        We design professional UI/UX layouts on Figma before development, making
+        sure your ideas turn into pixel-perfect designs.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section class="projectssection" id="projects">
+  <h1>My <span class="yellow">Projects</span></h1>
+  <hr />
+
+  <div class="projects-content">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="project 1 image.jfif" alt="Sherk Juice Project" />
+      <h2>Sherk Juice Website</h2>
+      <p>
+        A responsive juice shop website built with HTML, CSS, and JavaScript
+        during practice sessions.
+      </p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="project 2 image.webp" alt="E-Book Platform" />
+      <h2>E-Book Platform</h2>
+      <p>
+        A PHP and MySQL based platform where users can explore and download
+        e-books online.
+      </p>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="project 3.png" alt="Portfolio Website" />
+      <h2>Portfolio Website</h2>
+      <p>
+        A personal portfolio showcasing skills, services, and projects with
+        modern design and UI/UX.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contactsection" id="contact">
+  <h1>Contact <span class="yellow">Me</span></h1>
+  <hr />
+
+  <form class="contact-form">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" />
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" ></textarea>
+    </div>
+
+   <button type="button" class="submit-btn" onclick="contact()">Send Message</button>
+
+  </form>
+</section>
+
+
+<!-- Footer Section -->
+
+<footer class="footersection">
+  <div class="footer-content">
+    <p>© 2025 Your Name. All rights reserved.</p>
+    
+    <div class="footer-info">
+      <span>Email: <a href="mailto:yourmail@example.com">ayan007506@gmail.com</a></span> | 
+      <span>Phone: <a href="tel:+1234567890">03150222838</a></span> | 
+      <span>Location: Karachi, Pakistan</span>
+    </div>
+
+    <div class="footer-socials">
+      <a href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer">Twitter</a>
+      <a href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="#" aria-label="GitHub" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+ 
+
+
+
+
+
+<!-- Typing Effect Js======================== -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed("#element", {
+    strings: ["Frontend Developer", "Backend Developer"],
+    typeSpeed: 60,
+    backSpeed: 40,
+    loop: true,
+  });
+</script>
+<script src="index.js"></script>
+</body>
+
+</html>
